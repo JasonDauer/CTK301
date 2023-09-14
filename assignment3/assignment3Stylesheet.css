@@ -1,0 +1,37 @@
+/*p
+{
+  color:aqua;
+}
+*/
+
+body
+{
+  background-color:grey;
+}
+
+.spanstyle {
+  color:darkred;
+}
+
+.footer {
+  color:whitesmoke;
+}
+
+#Courses {
+  background-color: white;
+}
+a {
+  color:darkred;
+  text-decoration: none;
+}
+
+a:visited {
+  color:darkgreen;
+}
+
+a:hover {
+  color:yellow;
+  text-decoration: underline;
+}
+
+
