@@ -1,0 +1,26 @@
+.Sky {
+    color:white
+}
+
+.Day {
+    color:yellow;
+    background-color: darkgreen;
+}
+
+#Inferno {
+    color:black;
+    background-color: yellow;
+}
+
+.spanstyle {
+    color: orange;
+}
+
+a {
+    color:green;
+    text-decoration: none;
+}
+
+a :hover {
+    color:red;
+}

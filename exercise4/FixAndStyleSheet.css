@@ -1,13 +1,19 @@
-.Sky {
-    color:white
+.paragraph0 {
+    background-color:rgba(74, 123, 228, 0.915);
+}
+.sky {
+    color:white;
 }
 
-.Day {
+.fires {
+    color: rgb(40, 148, 190);
+}
+.day {
     color:yellow;
     background-color: darkgreen;
 }
 
-#Inferno {
+#inferno {
     color:black;
     background-color: yellow;
 }
@@ -16,11 +22,25 @@
     color: orange;
 }
 
+
+
+.paragraph1 {
+    color:red
+}
+
+.paragraph2 {
+    background-color: green;
+}
+
+.paragraph3 {
+    background-color: yellow;
+}
+
 a {
-    color:green;
+    color:rgb(16, 198, 16);
     text-decoration: none;
 }
 
-a :hover {
-    color:red;
+a:hover {
+    color:rgb(247, 57, 57);
 }
