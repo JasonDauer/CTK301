@@ -1,0 +1,59 @@
+/*p
+{
+  color:aqua;
+}
+*/
+
+body
+{
+  background-image: url(minecraft.jpg)
+  
+}
+.customtext {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.customtext2 {
+  font-weight: normal;
+  font-style: italic;
+  color:orange;
+}
+.centertext {
+  text-align: center;
+}
+.justifytext {
+  text-align: justify;
+}
+.spanstyle {
+  color:darkred;
+}
+.imgbox {
+  border: 10px solid black;
+  padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+  background-color: yellow;
+}
+.footer {
+  color:whitesmoke;
+}
+
+#Courses {
+  border: 6px solid black;
+  padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+  background-color: tan;
+}
+a {
+  color:darkred;
+  text-decoration: none;
+}
+
+a:visited {
+  color:darkblue;
+}
+
+a:hover {
+  color:yellow;
+  text-decoration: underline;
+}
+
+
