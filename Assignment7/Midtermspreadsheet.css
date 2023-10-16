@@ -1,0 +1,95 @@
+body {
+background-color: gray;
+}
+nav {
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+nav li {
+    width: 150px;
+    margin: 10px;
+    padding: 0px;
+    display: inline-block;
+  }
+  nav li a {
+    background-image: linear-gradient(to bottom, rgb(39, 66, 243), rgb(73, 109, 250), blue);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    color: rgb(38, 147, 220);
+    text-decoration: none;
+    display: block;
+  }
+  nav li a:hover {
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+  }
+  .img-border {
+    border: blue solid 3px;
+    float: right;
+    display: block;
+
+  }
+  .img-border2 {
+    border: blue solid 3px;
+    float: left;
+    width: 150px;
+    display: block;
+  }
+  .img-border3 {
+    border: blue solid 3px;
+    float: none;
+    width: 150px;
+    display: block;
+  }
+  .img-border4 {
+border: blue solid 3px;
+float: right;
+width: 150px;
+  }
+  
+  .border-bottom {
+    border-bottom: blue solid 3px;
+    color: blue;
+  }
+  .header1text {
+    color:blue;
+  }
+  #wrapper {
+    margin: 1em auto;
+    padding: 1em;
+    width: 960px;
+    border: 5px solid blue;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 75px auto 100px;
+    
+    
+  }
+  header {
+    grid-column: span 12;
+}
+main {
+    grid-column: span 9;
+}
+footer {
+    grid-column: span 12;
+    border: 5px solid blue;
+    background-color: red;
+    clear: both;
+}
+.wrapper2 {
+background-color: lightblue;
+
+}
+aside {
+  
+  grid-column: span 10;
+
+}
