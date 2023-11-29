@@ -8,12 +8,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
 </head>
 <body>
 	<div id="wrapper">
 		<header>
-			<h1>My Career</h1>
-		</header>
+			<h1 class="heading-center">My Career</h1>
+			</header>
 		<nav>
 			<ul>
                 <li><a href="Portfolio.html" target="_blank">Button 1</a></li>
@@ -23,8 +27,32 @@
 			</ul>
 		</nav>
 		<main>
-			<h2>Heading</h2>
-            
+			<h2>Game Design</h2>
+			<img src="game_designer.jpg" alt="game_designer">
+			<p>In the future, I want to become a game designer. My major is game design because I just love how video games were made back then and in the present. So far I have learned how to 3D model, model 2D graphics, animation, and basic coding languages like html and some javascript. I hope I can learn more about these things espically learning how to Python, I've always wanted to learn how to use Python because I've heard it's the best coding language that people have used. </p>
+			<h2>3D Modeling/Animation</h2>
+			<p>When getting into the field, I first learned how to model 3D and 2D graphics. So far I've used Autocad but I think Maya is better for my field because there are more options for modeling objects while Autocad is more so for designing blueprint. I've also used Maya to learn how to animate 3D objects.</p>
+           
+			<video width="640" height="360" autoplay controls loop preload="auto" >
+                <source src="IK FK tripping animation (Maya).mp4" type="video/mp4">
+              </video>
+			  <video width="640" height="360" autoplay controls loop preload="auto" >
+			  <source src="Fight Scene Using Camera Sequencer (Maya).mp4" type="video/mp4">
+			  </video>
+			  <h2>Building a World</h2>
+			  <p>After learning the basics of modeling with 3D and 2D graphics, I learned how to implement those elements by creating a level and then move on to building a world. So far I've used Unreal Engine and Unity.</p>
+			  <div id="secondCarousel" class="f-carousel">
+				<div class="f-carousel__slide"><img src="Screenshot 2023-11-29 161045.png"></div>
+				<div class="f-carousel__slide"><img src="Screenshot 2023-11-29 162314.png"></div>
+				<div class="f-carousel__slide"><img src="Screenshot 2023-11-29 162716.png"></div>
+				<div class="f-carousel__slide"><img src="Screenshot 2023-11-29 163945.png"></div>
+			</div>
+			<script>   
+				Fancybox.bind("[data-fancybox]", {});
+				const container2 = document.getElementById("secondCarousel");
+				const options2 = { infinite: false };
+				new Carousel(container2, options2);
+			 </script>
 			</main>
 		<footer>
 			<p>Copyright</p>

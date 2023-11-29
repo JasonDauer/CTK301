@@ -97,4 +97,28 @@ footer {
 .img-fit {
   image-rendering: pixelated;
 }
+.heading-center {
+  text-align: center;
+}
+.font {
+  font-family: ;
+}
+#myCarousel {
+  margin-bottom: 24px;
+}
 
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
+}
+
+#secondCarousel1 {
+  margin-bottom: 24px;
+}
+
+#secondCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
+}
