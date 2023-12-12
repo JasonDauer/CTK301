@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<link href="PortfolioStyleSheet.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1 class="heading-center">My Career</h1>
+			</header>
+		<main>
+			<h2 class="border-bottom">Coding</h2>
+			<img src="code.jpg" alt="code">
+			<p>After learning about 3D modeling, I started learning how to code. My first language I learned was HTML and then I learned about java. However, my first coding class was not in person, it was online. I struggled in that class since I learn better in person than online. In fact there were no lecture videos to watch either. We only had notes to read but in my opinion, it's better to learn how to code if you're teacher is showing you than telling how.</p>
+			<p>Here are some exmaples of my old javascript assignments</p>
+            <div id="secondCarousel" class="f-carousel">
+				<div class="f-carousel__slide"><img src="Screenshot 2023-12-11 125052.png"></div>
+				<div class="f-carousel__slide"><img src="Screenshot 2023-12-11 235833.png"></div>
+			</div>
+            <h4>Click on this example to experience greatness:</h4>
+            <a href="Dauer.Loops.html" target="_blank">JavaScript example</a>
+            <h2 class="border-bottom">Learning Code in Person</h2>
+			  <p>When I transferred to Illinois State University, I finally got a coding class in person. Thus, learning code in person was so much easier than learning online with no lecture videos.</p>
+                <p>Here are some projects that I've done in my web design class for this semester.</p>
+                
+			<script>   
+				Fancybox.bind("[data-fancybox]", {});
+				const container2 = document.getElementById("secondCarousel");
+				const options2 = { infinite: false };
+				new Carousel(container2, options2);
+			 </script>
+			</main>
+            <nav>
+                <ul>
+                    <li><a href="HomePage.html" target="_blank">Home</a></li>
+                    <li><a href="Portfolio.html" target="_blank">All About Me</a></li>
+                    <li><a href="MyHobbies.html" target="_blank">My Hobbies</a></li>
+                </ul>
+            </nav>
+			<footer>
+				<a href="mailto:jasondauer647@gmail.com" target="_blank"> Click here to email. jasondauer647@gmail.com</a> <p> Instagram: jasonboy75 Snapchat: jasonboy75 YouTube: jasonboy75 Discord jasonboy75</p>
+			</footer>
+	</div>
+</body>
+</html>
